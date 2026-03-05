@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pelanggan Krabby Patty</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+.container{
+    width:400px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align:center;
+    color:#ff9900;
+}
+
+label{
+    font-weight:bold;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#ff9900;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff6600;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+<h2>Form Pelanggan Krabby Patty 🍔</h2>
+
+<form>
+
+<label>Nama Pelanggan</label>
+<input type="text" placeholder="Masukkan nama pelanggan">
+
+<label>Nomor HP</label>
+<input type="tel" placeholder="08xxxxxxxxxx">
+
+<label>Pilih Menu</label>
+<select>
+<option>Krabby Patty Original</option>
+<option>Double Krabby Patty</option>
+<option>Cheese Krabby Patty</option>
+</select>
+
+<label>Jumlah Pesanan</label>
+<input type="number" min="1">
+
+<label>Alamat Pengiriman</label>
+<textarea placeholder="Masukkan alamat"></textarea>
+
+<button type="submit">Pesan Sekarang</button>
+
+</form>
+</div>
+
+</body>
+</html>
